@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<style>
+    *{
+        padding:0px;
+        margin:0px;
+    }
+    #nav{
+        color:white;
+        display:flex;
+        width:100%;
+        height:100px;
+        justify-content: space-between;
+        background-image: linear-gradient(to right,gray,brown);
+    }
+    #nav>div>div{
+        padding: 35px 10px;
+        font-size: larger;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 800;
+
+    }
+    #nav>div{
+        display: flex;
+    }
+    #nav>div>img{
+        border-radius: 50px;
+        height:100px;
+        width:100px;
+    }
+    #list>li>a{
+        text-decoration: none;
+        color:white;
+    }
+    
+    #list{
+        list-style: none;
+        padding:30px;
+        display:flex;
+    }
+    #list>li{
+        padding:10px;
+    }
+    #main{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        background-image: linear-gradient(to right, pink, maroon);
+        color:white;
+        height:86vh;
+        align-items: center;
+    }
+    #main>div{
+        border-radius:20px 0px 0px 0px;
+        display:flex;
+        height:42vh;
+        width:80vw;
+    }
+    #main>div>img{
+            border-radius:100px 0px;
+            height: 90%;
+            width:90%;
+            padding:10px;
+    }
+    
+   
+</style>
+<body>
+    <section id="nav">
+        <div>
+            <img src="mypic.jpg">
+            <div>Sanjit Singh</div>
+        </div>
+           
+        
+        <ul id="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="cert.html">Certification </a></li>
+        <li><a href="Skills.html">Skills </a></li>
+    </ul>
+    </section>
+    <section id="main">
+       <div><img src="certificate1.png">
+        <img src="certificate3.png">
+    </div>
+       <div>
+        <img src="certificte2.png" alt="3">
+        <img src="certificate4.png">
+       </div>
+    </section>
+    
+
+</body>
+</html>
